@@ -1,14 +1,12 @@
 # js-languages
 
-<div style="display:flex;"><img src="https://i.imgur.com/qAMPQNO.png" alt="logo" width="100px"></img><p style="margin-left: 10px;">With this very simple script, your website can update inner text in an HTML that needs to be updated when a visitor with a different language code comes to your website. It supports multiple pages, any language code (even those that don't yet exist) and infinite elements to translate. It doesn't support language dialects (ex: en_GB or en_US differences) yet.</p></div>
+<img src="https://i.imgur.com/qAMPQNO.png" width="100px" align="right" />
 
-<br />
+With this very simple script, your website can update inner text in an HTML that needs to be updated when a visitor with a different language code comes to your website. It supports multiple pages, any language code (even those that don't yet exist) and infinite elements to translate. It doesn't support language dialects (ex: en_GB or en_US differences) yet.
 
-<div style="display:flex; margin-bottom: 10px;">
-    <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/spigbop/js-languages?style=for-the-badge">
-    <img style="margin-left: 10px;" alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/y/spigbop/js-languages?style=for-the-badge">
-    <img style="margin-left: 10px;" alt="GitHub last commit" src="https://img.shields.io/github/last-commit/spigbop/js-languages?style=for-the-badge">
-</div>
+![GitHub repo size](https://img.shields.io/github/repo-size/spigbop/js-languages?style=for-the-badge)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/y/spigbop/js-languages?style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/spigbop/js-languages?style=for-the-badge)
 
 ## Translating a Single Page
 
