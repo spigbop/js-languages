@@ -101,6 +101,5 @@ secondpage.html
 
 ## Planned for Future
 
-- Variable to change the `--field-` prefix.
 - To reduce file count. If a language is not present, it will default to that language file inside a globals directory.
 - Easily implementable example language select popups.

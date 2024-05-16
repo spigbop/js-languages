@@ -1,3 +1,5 @@
+const language_settings_prefix = "--field-";
+
 const document_path = window.location.pathname;
 const page = document_path.split("/").pop().split(".")[0];
 
@@ -17,7 +19,7 @@ function translate(langcode) {
         if(!json) return; 
 
         for(var key in json) {
-            document.getElementById(`--field-${key}`).innerText = json[key];
+            document.getElementById(`${language_settings_prefix}${key}`).innerText = json[key];
         }
     }
 }
