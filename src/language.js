@@ -4,7 +4,7 @@ const language_settings_prefix = "--field-"; // prefix before elment ids default
 let document_path = window.location.pathname.split("/");
 let page = "index";
 if(document_path.length > 2) {
-    if(document_path.pop() === "") { page = document_path[document_path.length - 2].split(".")[0]; }
+    if(document_path[document_path.length - 1] === "") { page = document_path[document_path.length - 2].split(".")[0]; }
     else { page = document_path.pop().split(".")[0]; }
 }
 
