@@ -1,9 +1,15 @@
 const language_settings_data_location = "./src/data/"; // location of language files
 const language_settings_prefix = "--field-"; // prefix before elment ids default: --field-<name>
 
-let document_path = window.location.pathname;
-if(document_path === "/") document_path = "index";
-const page = document_path.split("/").pop().split(".")[0];
+let page = "index";
+{
+    let document_path = window.location.pathname.split("/");
+    let i = 1;
+    while(document_path[document_path.length - i] === "") i++;
+    if(i <= document_path.length) {
+        page = document_path[document_path.length - i].split(".")[0];
+    }
+}
 
 const langcode_user_full = window.navigator.userLanguage || window.navigator.language;
 const langcode_user = langcode_user_full.split("-")[0];
