@@ -101,5 +101,4 @@ secondpage.html
 
 ## Planned for Future
 
-- To reduce file count. If a language is not present, it will default to that language file inside a globals directory.
 - Easily implementable example language select popups.
